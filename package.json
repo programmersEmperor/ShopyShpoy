@@ -1,0 +1,37 @@
+{
+  "name": "@shopy-shopy/source",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "dependencies": {
+    "axios": "^1.6.0",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@nx/esbuild": "21.3.11",
+    "@nx/jest": "21.3.11",
+    "@nx/js": "21.3.11",
+    "@nx/node": "21.3.11",
+    "@nx/workspace": "21.3.11",
+    "@swc-node/register": "~1.9.1",
+    "@swc/core": "~1.5.7",
+    "@swc/helpers": "~0.5.11",
+    "@swc/jest": "~0.2.38",
+    "@types/express": "^4.17.21",
+    "@types/jest": "^30.0.0",
+    "@types/node": "~18.16.9",
+    "esbuild": "^0.19.2",
+    "jest": "^30.0.2",
+    "jest-environment-node": "^30.0.2",
+    "jest-util": "^30.0.2",
+    "nx": "21.3.11",
+    "ts-jest": "^29.4.0",
+    "ts-node": "10.9.1",
+    "tslib": "^2.3.0",
+    "typescript": "~5.8.2"
+  },
+  "workspaces": [
+    "apps/*"
+  ]
+}
